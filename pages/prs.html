@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="https://github.com/Revou-FSSE-Oct25/milestone-2-WMIbrahim/css/prs.css">
+    <link rel="stylesheet" href="https://github.com/Revou-FSSE-Oct25/milestone-2-WMIbrahim/css/navbar.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">RevoFun</div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="https://github.com/Revou-FSSE-Oct25/milestone-2-WMIbrahim/index.html">Home</a></li>
+                    <li><a href="#">Rules</a></li>
+                </ul>
+            </nav>
+    </header>
+    
+    <div class="game-container">
+        <h1>Rock Paper Scissors</h1>
+
+        <div class="score-board">
+            <div>
+                <h2>Player</h2>
+                <span id="playerScoreDisplay">0</span>
+            </div>
+            <div>
+                <h2>Computer</h2>
+                <span id="computerScoreDisplay">0</span>
+            </div>
+        </div>
+
+        <div class="display">
+            <p id="playerDisplay">PLAYER: </p>
+            <p id="computerDisplay">COMPUTER: </p>
+            <h2 id="resultDisplay">Select one of them</h2>
+        </div>
+
+        <div class="buttons">
+            <button onclick="playGame('rock')">✊ Rock</button>
+            <button onclick="playGame('paper')">✋ Paper</button>
+            <button onclick="playGame('scissors')">✌️ Scissors</button>
+        </div>
+    </div>
+
+<script src="https://github.com/Revou-FSSE-Oct25/milestone-2-WMIbrahim/js/prs.js"></script>
+</body>
+</html>
